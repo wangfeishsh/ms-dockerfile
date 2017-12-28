@@ -88,7 +88,8 @@
 					<!--<repository>registry02.yupaopao.cn/${docker.image.prefix}/${project.artifactId}</repository>-->
 					<!--<repository>registry.hub.docker.com/${docker.image.prefix}/${project.artifactId}</repository>-->
 					<!--<repository>docker.io/${docker.image.prefix}/${project.artifactId}</repository>-->
-					<repository>10.27.7.177:9999/${docker.image.prefix}/${project.artifactId}</repository>
+					<!--<repository>10.27.7.177:9999/${docker.image.prefix}/${project.artifactId}</repository>-->
+					<repository>reg.bxapp.cn/${docker.image.prefix}/${project.artifactId}</repository>
 					<tag>latest</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
